@@ -1,0 +1,11 @@
+{
+  "name": "playmusicapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-id3": "^0.1.5",
+    "playmusic": "^2.3.0",
+    "request": "^2.87.0"
+  }
+}
