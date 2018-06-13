@@ -83,7 +83,8 @@ pm.init({
 }, (err) => {
     if(err) console.error(err);
 
-    pm.getAllTracks({ limit: -1 }, async (err, { data: { items } }) => {
+    // change limit if you have download more/less songs
+    pm.getAllTracks({ limit: 2000 }, async (err, { data: { items } }) => {
         if (err) console.error(err);
 
         logs.setAllCount(items.length);
